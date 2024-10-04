@@ -20,7 +20,7 @@ const userOne = {
 userOne.age = 41
 ```
 
-- Array methods
+- Array methods: `push()`, `find()`, `findIndex()`, `indexOf()`
 
 ```
 // ajouter un utilisateur
