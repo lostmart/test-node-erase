@@ -22,7 +22,6 @@ const userTwo = {
 
 const users = [userOne, userTwo]
 
-
 const userThree = {
 	firstName: "Test 3",
 	age: 21,
@@ -31,11 +30,11 @@ const userThree = {
 
 users.push(userThree)
 
-
 // trouver un utilizateur
-const foundUser = users.indexOf((user) => {
-    user.firstName === "Test Two"
-})
+const userPosition = users.find((user) => user.firstName === "Test user one")
 
+// const foundUser = users.indexOf((user) => {
+// 	user.firstName === "Test Two"
+// })
 
-console.log(foundUser)
+console.log(userPosition)
