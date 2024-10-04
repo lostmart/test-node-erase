@@ -14,4 +14,22 @@ const userOne = {
 
 userOne.age = 41
 
-console.log(userOne)
+const userTwo = {
+	firstName: "Test Two",
+	age: 34,
+	admin: true,
+}
+
+const users = [userOne, userTwo]
+
+
+const userThree = {
+	firstName: "Test 3",
+	age: 21,
+	admin: true,
+}
+
+users.push(userThree)
+
+
+console.log(users)
