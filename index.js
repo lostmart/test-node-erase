@@ -36,7 +36,7 @@ users.push(userThree)
 // trouver un utilizateur
 const userPosition = users.find((user) => user.firstName === "Test user one")
 
-// trouver ss position
+// trouver sa position
 const userIndexPosition = users.findIndex(
 	(user) => user.firstName === "Test user one"
 )
