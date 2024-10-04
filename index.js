@@ -41,4 +41,12 @@ const userIndexPosition = users.findIndex(
 	(user) => user.firstName === "Test user one"
 )
 
-console.log(userIndexPosition)
+// console.log(userIndexPosition)
+
+// simple array
+const names = ["bob", "charlie", "chloe", "sean"]
+
+// trouver son index
+const userIndex = names.indexOf("test")
+
+console.log(userIndex)
