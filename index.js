@@ -32,4 +32,10 @@ const userThree = {
 users.push(userThree)
 
 
-console.log(users)
+// trouver un utilizateur
+const foundUser = users.indexOf((user) => {
+    user.firstName === "Test Two"
+})
+
+
+console.log(foundUser)
