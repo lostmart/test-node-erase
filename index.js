@@ -6,6 +6,7 @@ const age = 34
 
 // typeof
 
+// objects
 const userOne = {
 	firstName: "Test user one",
 	age: 40,
@@ -20,6 +21,7 @@ const userTwo = {
 	admin: true,
 }
 
+// tableu  -  array
 const users = [userOne, userTwo]
 
 const userThree = {
@@ -28,13 +30,15 @@ const userThree = {
 	admin: true,
 }
 
+// ajouter un utilisateur
 users.push(userThree)
 
 // trouver un utilizateur
 const userPosition = users.find((user) => user.firstName === "Test user one")
 
-// const foundUser = users.indexOf((user) => {
-// 	user.firstName === "Test Two"
-// })
+// trouver ss position
+const userIndexPosition = users.findIndex(
+	(user) => user.firstName === "Test user one"
+)
 
-console.log(userPosition)
+console.log(userIndexPosition)
